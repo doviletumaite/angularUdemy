@@ -17,14 +17,15 @@
     <div class="col-xs-12">
         <div class="btn-group"
         appDropdown
+        ngbDropdown
         >
-            <button class="btn btn-primary dropdown-toggle">manage recipe
+            <button  ngbDropdownToggle class="btn btn-primary dropdown-toggle">manage recipe
                 <span class="caret"></span>
             </button>
-            <ul class="dropdown-menu">
-                <li><a href="#">add to shopping list</a></li>
-                <li><a href="#">edit recipe</a></li>
-                <li><a href="#">delete recipe</a></li>
+            <ul ngbDropdownMenu class="dropdown-menu">
+                <li><a ngbDropdownItem href="#">add to shopping list</a></li>
+                <li><a ngbDropdownItem href="#">edit recipe</a></li>
+                <li><a ngbDropdownItem href="#">delete recipe</a></li>
             </ul>
         </div>
 
