@@ -23,7 +23,11 @@
                 <span class="caret"></span>
             </button>
             <ul ngbDropdownMenu class="dropdown-menu">
-                <li><a ngbDropdownItem href="#">add to shopping list</a></li>
+                <li><a
+                     ngbDropdownItem
+                     style="cursor: pointer;"
+                     (click)="onAddToShoppingList()"
+                     >add to shopping list</a></li>
                 <li><a ngbDropdownItem href="#">edit recipe</a></li>
                 <li><a ngbDropdownItem href="#">delete recipe</a></li>
             </ul>
