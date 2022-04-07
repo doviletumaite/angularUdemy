@@ -28,7 +28,11 @@
                      style="cursor: pointer;"
                      (click)="onAddToShoppingList()"
                      >add to shopping list</a></li>
-                <li><a style="cursor: pointer;" ngbDropdownItem >edit recipe</a></li>
+                <li><a
+                  style="cursor: pointer;"
+                  ngbDropdownItem
+                  (click)="onEditRecipe()"
+                  >edit recipe</a></li>
                 <li><a style="cursor: pointer;" ngbDropdownItem >delete recipe</a></li>
             </ul>
         </div>
